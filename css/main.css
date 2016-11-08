@@ -1,0 +1,33 @@
+.papa {
+  width: 750px;
+  height: 500px;
+  position:relative;
+  margin-left:250px;
+  margin-top:60px;
+}
+hr {
+    border:2px solid black;
+    width:100px;
+    position:relative;
+    left:-323px;
+    top:-8px;
+}
+.foto {
+    position:relative;
+    display:inline-block;
+    margin:10px;
+    background: black;
+    width:211px;
+    height: 211px;
+}
+img {
+    opacity:0.8; 
+}
+.foto:after {
+    content:"Nombre y Apellido";
+    position:absolute;
+    color:white;
+    right:5px;
+    bottom:0px;
+    
+}
